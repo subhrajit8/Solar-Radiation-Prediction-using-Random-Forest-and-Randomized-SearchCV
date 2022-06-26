@@ -60,7 +60,7 @@ One big advantage of random forest is that it can be used for both classificatio
 
 
 
-![App Screenshot]("https://github.com/subhrajit8/Solar-Radiation-Prediction-using-Random-Forest-and-Randomized-SearchCV/blob/master/pictures/random-forest-algorithm.png?raw=true")
+![random-forest-algorithm](https://user-images.githubusercontent.com/105455186/175829431-f6209be6-4c50-4147-9be2-91500abc0c90.png)
 
 
 
