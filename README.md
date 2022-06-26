@@ -72,3 +72,18 @@ One big advantage of random forest is that it can be used for both classificatio
 
  - [Randomized SearchCV](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.RandomizedSearchCV.html)
 
+
+
+## Results
+
+The model was evaluated using : 
+r2_score : 0.8094939996265258
+RMSE : 108.55174675101202
+
+The performance of the model : 
+![Performance of the model in prediction of Radiation for corresponding UNIXTime](https://user-images.githubusercontent.com/105455186/175832445-3663f7f6-d00b-4cb2-93dc-f41839875cd9.png)
+
+
+Another great quality of the random forest algorithm is that it is very easy to measure the relative importance of each feature on the prediction. Sklearn provides a great tool for this that measures a feature’s importance by looking at how much the tree nodes that use that feature reduce impurity across all trees in the forest. It computes this score automatically for each feature after training and scales the results so the sum of all importance is equal to one.
+
+![Importance of different parameters](https://user-images.githubusercontent.com/105455186/175832357-26865e85-ab2e-4397-b0dd-4943bba311fb.png)
